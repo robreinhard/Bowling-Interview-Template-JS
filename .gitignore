@@ -1,0 +1,31 @@
+.idea/
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+/playwright-report
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.*.local
+.env.playwright
+node-audit.json
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+src/apollo-autogen
+**/__apollo-generated__
+
+.vscode/*
+.eslintcache
+/test-results/

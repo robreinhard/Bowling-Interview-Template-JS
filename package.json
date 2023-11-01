@@ -1,0 +1,19 @@
+{
+  "name": "Bowling-Interview-Template-JS",
+  "version": "1.0.0",
+  "description": "Hy-Vee Bowling Test Question, in JS",
+  "main": "main.js",
+  "repository": "git@github.com:robreinhard/Bowling-Interview-Template-JS.git",
+  "author": "Rob Reinhard",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {}
+}
