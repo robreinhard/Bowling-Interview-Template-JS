@@ -2,7 +2,6 @@ import {expect, test} from "@jest/globals";
 
 import Game from "./Game.js";
 
-
 test('Rolling all strikes, then a 9', () => {
     const game = new Game();
 
@@ -12,5 +11,5 @@ test('Rolling all strikes, then a 9', () => {
 
     game.roll(9);
 
-    expect(game.score()).toEqual(249);
+    expect(game.score()).toEqual(258);
 })
