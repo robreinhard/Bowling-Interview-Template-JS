@@ -10,9 +10,10 @@
   "type": "module",
   "scripts": {
     "start": "node main.js",
-    "test": "jest"
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest"
   },
   "devDependencies": {
+    "@jest/globals": "^29.7.0",
     "jest": "^29.7.0"
   },
   "dependencies": {}

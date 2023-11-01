@@ -1,4 +1,7 @@
-const Game = require('./Game.js');
+import {expect, test} from "@jest/globals";
+
+import Game from "./Game.js";
+
 
 test('Rolling all strikes, then a 9', () => {
     const game = new Game();
