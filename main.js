@@ -1,4 +1,4 @@
-import Game from "./Game.js";
+const Game = require('./Game.js');
 
 console.log("Welcome to the interview!");
 
